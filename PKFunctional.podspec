@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author              = "Philip Kluz"
     s.source              = { :git => "https://github.com/pkluz/PKFunctional.git", :tag => "v#{s.version}" }
     s.requires_arc        = true
-    s.platform            = :ios, "8.0"
+    s.platform            = { :ios => "8.0", :osx => "10.7" }
     s.source_files        = "PKFunctional/**/*.{h,m}"
     s.framework           = "Foundation"
 end
